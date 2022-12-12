@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcur icon" href="../img/2.png" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="../styles/styles.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet" />
+  <title>Contacto</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="container-fluid d-flex justify-content-center">
+        <nav class="navbar navbar-expand-lg bg-transparent">
+          <div class="container-fluid">
+            <a class="navbar-brand me-5" href="../index.html"><img src="../img/2.png" alt="Logo de la empresa"
+                width="50" height="50" aligh-item="right" /> Tropical</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link " href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="producto.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="comocomprar.html">¿Como Comprar?</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="perfil.html"><img src="../img/iconopersona.png" alt="icono persona perfil"
+                      width="20" height="20" /></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="carrito.html"> <img src="../img/iconocarrito.png"
+                      alt="icono carrito compra" width="20" height="20" /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+
+    <h1 class="display-3">Contacto</h1>
+
+    <div class="container">
+
+      <div class="row">
+        <div class="subtitle">
+          <h5>Los sabores mas frescos a tu alcance</h5>
+        </div>
+
+      </div>
+      <section class="contact text-center">
+        <form action="">
+          <div>
+            <h3>Contactanos</h3>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" />
+            <br />
+
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" id="apellido" />
+            <br />
+            Hombre
+            <input type="radio" name="sexo" value="hombre" />
+            Mujer
+            <input type="radio" name="sexo" value="mujer" />
+            <br />
+            <div>Acepta los terminos y condiciones</div>
+            <input type="checkbox" name="acepta" id="acepta" value="1" />
+            <br />
+            <label for="Tipo de consulta"></label>
+            <select name="Consulta" id="Consulta">
+              <option value="Compra">Compra</option>
+              <option value="Al mayor">Al mayor</option>
+              <option value="Envios">Envios</option>
+              <option value="Otros">Otro</option>
+            </select>
+            <br />
+            <label for="mensaje">Mensaje</label>
+            <br />
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+            <div>
+              <input type="submit" value="Enviar formulario" />
+              <input type="reset" value="Borrar formulario" />
+            </div>
+          </div>
+        </form>
+      </section>
+
+    </div>
+    </div>
+
+
+  </main>
+
+  <div class="container-fluid footer-sm">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-4 mt-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <img src="../img/2.png" alt="Logo de la empresa" width="50" height="50" aligh-item="right" />
+        </a>
+        <span class="text-muted">&copy; 2022 Tropical, Inc</span>
+        <span class="text-muted me-4">Karen Aguirre </span>
+      </div>
+
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="#"><img src="../img/instagram.png" alt="Logo instagram" width="30"
+              height="30" />Instagram</a> </li>
+        <li class="ms-3"><a class="text-muted" href="#"><img src="../img/facebook.png" alt="Logo facebook" width="30"
+              height="30" /> Facebook</a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><img src="../img/whatsapp.png" alt="Logo whatsapp" width="30"
+              height="30" /> Whatsapp</a> </li>
+      </ul>
+    </footer>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
