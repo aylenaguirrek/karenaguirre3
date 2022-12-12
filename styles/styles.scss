@@ -1,4 +1,6 @@
 @import "headers";
+@import "footers";
+@import "globals";
 * {
   margin: 0;
   padding: 0;
@@ -6,10 +8,6 @@
 }
 
 /*BODY*/
-
-body {
-  font-family: "Poppins", sans-serif;
-}
 
 /*CONTAINER*/
 
@@ -165,48 +163,6 @@ section {
 
 /*FOOTER*/
 
-.footer {
-  background-color: bisque;
-  padding-top: 1rem;
-}
-.footer-sm {
-  background-color: bisque;
-  color: rgb(206, 122, 4);
-}
-.footer-sm a {
-  color: rgb(255, 255, 255);
-}
-.footer-sm a i {
-  font-size: 1rem;
-  margin-left: 1rem;
-}
-.footer-sm__icons {
-  text-align: left;
-  padding: 1.5rem 0;
-  margin-right: 30px;
-}
-.footer-bottom {
-  padding: 1.5rem 0;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  flex-direction: row;
-  justify-content: center;
-}
-.footer-bottom__copyright {
-  text-align: center;
-  color: darkgoldenrod;
-  font-weight: 400;
-}
-.footer-bottom__copyright a {
-  color: black;
-  text-decoration: none;
-}
-.footer-bottom__copyright a:hover {
-  color: gray;
-  text-decoration: underline;
-}
-
 /*COL*/
 
 .col {
@@ -214,28 +170,6 @@ section {
 }
 
 /*NAV UL*/
-
-.nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  padding-right: 20px;
-}
-.nav ul li {
-  display: inline-block;
-  line-height: 80px;
-  font-size: 12px;
-}
-
-.nav ul li a {
-  padding: 0 10px;
-  display: block;
-  text-decoration: none;
-}
-
-.nav ul li a:hover {
-  background: #b16518;
-}
 
 #main-content {
   width: 90%;
@@ -282,17 +216,6 @@ section {
 }
 /*BOTTOM*/
 
-.bottom {
-  border: 1px solid #2e518b;
-  padding: 10px;
-  background-color: #2e518b;
-  color: #ffffff;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  border-radius: 50px;
-}
-
 /*TEXTOS*/
 .h3 {
   text-align: center;
@@ -310,41 +233,8 @@ section {
 }
 
 /* ACORDEON2*/
-details {
-  overflow: hidden;
-  margin-top: 0.125em;
-  border: 1px solid #dddddd;
-  background: #ffffff;
-  color: #333333;
-  border-radius: 3px;
-}
 
-details summary {
-  display: block;
-  cursor: pointer;
-  padding: 0.5em 0.5em 0.5em 0.7em;
-  background: #ededed;
-  color: #2b2b2b;
-  border-radius: 3px 3px 0 0;
-}
-
-details:not([open]) summary:hover,
-details:not([open]) summary:focus {
-  background: #f6f6f6;
-  color: #454545;
-}
-
-details[open] summary {
-  border: 1px solid #b55c0e;
-  background: #ebb41e;
-  color: #ffffff;
-}
-
-details main {
-  padding: 1em 2.2em;
-}
-
-m-accordion {
+.m-accordion {
   margin: 50px;
   padding: 10px;
   box-sizing: border-box;

@@ -1,0 +1,13 @@
+@mixin bottom {
+  border: 1px solid #2e518b;
+  padding: 10px;
+  background-color: #2e518b;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  border-radius: 50px;
+}
+.bottom {
+  @include bottom;
+}
