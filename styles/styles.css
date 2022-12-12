@@ -350,11 +350,11 @@ section {
 /* ACORDEON2*/
 details {
   overflow: hidden;
-  margin-top: 0.125em;
   border: 1px solid #dddddd;
   background: #ffffff;
   color: #333333;
   border-radius: 3px;
+  margin: 20px;
 }
 
 details summary {
@@ -762,4 +762,5 @@ td.checkout {
   padding: 3px;
   cursor: pointer;
   border: #b16518;
+  margin: 5px;
 } /*# sourceMappingURL=styles.css.map */
