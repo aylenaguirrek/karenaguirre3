@@ -106,7 +106,11 @@ img {
 #intro-section {
   background-color: rgb(253, 197, 177);
   text-align: center;
-  background-image: linear-gradient(to bottom, rgb(253, 197, 177), rgb(230, 175, 155));
+  background-image: linear-gradient(
+    to bottom,
+    rgb(253, 197, 177),
+    rgb(230, 175, 155)
+  );
   align-items: center;
   box-shadow: 3px 2px 20px rgb(217, 174, 174);
 }
@@ -128,13 +132,13 @@ section {
   align-items: center;
   text-shadow: 3px 2px 5px rgb(88, 88, 88);
   -webkit-animation-name: display-2;
-          animation-name: display-2;
+  animation-name: display-2;
   -webkit-animation-duration: 6s;
-          animation-duration: 6s;
+  animation-duration: 6s;
   -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes display-2 {
@@ -428,7 +432,7 @@ article button {
   text-indent: 0px !important;
   text-align: start !important;
   -moz-text-align-last: start !important;
-       text-align-last: start !important;
+  text-align-last: start !important;
 }
 
 .padre-flex {
@@ -496,15 +500,15 @@ article button {
   /* height: 500px; */
   overflow: hidden;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
   -webkit-animation-name: cambio;
-          animation-name: cambio;
+  animation-name: cambio;
 }
 
 .slider ul {
   display: flex;
   -webkit-animation: cambio 10s infinite linear;
-          animation: cambio 10s infinite linear;
+  animation: cambio 10s infinite linear;
   width: 300%;
 }
 
@@ -722,7 +726,6 @@ td.checkout {
 }
 
 .contact {
-  width: 400px;
   padding: 50px;
   display: flex;
   flex: 0 1 300px;
@@ -733,7 +736,6 @@ td.checkout {
   box-shadow: 0px 1px 1px 0px grey;
   transition: all 400ms ease;
   cursor: default;
-  margin-right: 50px;
 }
 
 .contact:hover {
@@ -761,4 +763,4 @@ td.checkout {
   padding: 3px;
   cursor: pointer;
   border: #b16518;
-}/*# sourceMappingURL=styles.css.map */
+} /*# sourceMappingURL=styles.css.map */
