@@ -603,26 +603,31 @@ article button {
 #cart thead th.first {
   width: 175px;
   font-size: 15px;
+  text-align: center;
 }
 
 #cart thead th.second {
   width: 45px;
   font-size: 15px;
+  text-align: center;
 }
 
 #cart thead th.third {
   width: 230px;
   font-size: 15px;
+  text-align: center;
 }
 
 #cart thead th.fourth {
   width: 130px;
   font-size: 15px;
+  text-align: center;
 }
 
 #cart thead th.fifth {
   width: 20px;
   font-size: 15px;
+  text-align: center;
 }
 
 #cart tbody td {
