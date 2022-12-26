@@ -113,27 +113,57 @@
           </div>
         </div>
       </section>
-
-      <div class="slider">
-        <ul>
-          <li>
-            <img src="img/photo1.jpeg" />
-          </li>
-          <li>
-            <img src="img/photo2.jpeg" />
-          </li>
-          <li>
-            <img src="img/photo3.jpeg" />
-          </li>
-        </ul>
-      </div>
-
-      <section>
-        <img class="img-box" src="img/photo1.jpeg" alt="imagen portada" />
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="img/photo1.jpeg"
+              class="d-block w-100"
+              alt="imagen1"
+              height="400"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/photo2.jpeg"
+              class="d-block w-100"
+              alt="imagen2"
+              height="400"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/photo3.jpeg"
+              class="d-block w-100"
+              alt="imagen3"
+              height="400"
+            />
+          </div>
+        </div>
       </section>
-
+      
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
       <section>
         <div class="container">
+          <br>
           <h3 class="h3">"Si la vida no te sonríe, agrégale más frutas."</h3>
         </div>
         <div>

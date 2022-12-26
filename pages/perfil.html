@@ -103,6 +103,7 @@
       <section class="intro-section">
         <div class="container">
           <div class="row">
+            <br />
             <h1 class="text-center mb-5">Perfil</h1>
           </div>
         </div>
@@ -112,82 +113,97 @@
         <div class="container">
           <div class="container">
             <h6 class="subtitle">Rellena tus datos</h6>
-          </div>
-          <div class="container">
-            <div>
-              <div>
-                <div>
-                  <button title="Change profile photo">
-                    <img
-                      src="../img/fotoperfil.png"
-                      alt="Change profile photo"
-                      width="30"
-                      height="30"
-                    />
-                  </button>
-                  <div>
-                    <form
-                      enctype="multipart/form-data"
-                      method="POST"
-                      role="presentation"
-                    >
-                      <input type="file" accept="image/jpeg,image/png" id="" />
-                    </form>
-                  </div>
-                </div>
-                <div>
-                  <h5 class="_ab4i" title="karenaguirre">Karen Aguirre</h5>
+            <form class="row g-3">
+              <div class="col-md-4">
+                <label for="validationDefault01" class="form-label"
+                  >Nombre</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationDefault01"
+                  value="Mark"
+                  required
+                />
+              </div>
+              <div class="col-md-4">
+                <label for="validationDefault02" class="form-label"
+                  >Apellido</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationDefault02"
+                  value="Otto"
+                  required
+                />
+              </div>
+              <div class="col-md-4">
+                <label for="validationDefaultUsername" class="form-label"
+                  >Username</label
+                >
+                <div class="input-group">
+                  <span class="input-group-text" id="inputGroupPrepend2"
+                    >@</span
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="validationDefaultUsername"
+                    aria-describedby="inputGroupPrepend2"
+                    required
+                  />
                 </div>
               </div>
-            </div>
-            <form method="POST" class="perfil">
-              <div>
-                <aside>
-                  <label for="pepName"> Name</label>
-                </aside>
-                <div>
-                  <div style="width: 100%; max-width: 355px">
-                    <input
-                      type="text"
-                      value="Karen Aguirre"
-                      aria-required="false"
-                      id="pepName"
-                    />
-                  </div>
+              <div class="col-md-6">
+                <label for="validationDefault03" class="form-label"
+                  >Correo</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationDefault03"
+                  required
+                />
+              </div>
+
+              <div class="col-md-3">
+                <label for="validationDefault05" class="form-label"
+                  >Telefono</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationDefault05"
+                  required
+                />
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="invalidCheck2"
+                    required
+                  />
+                  <label class="form-check-label" for="invalidCheck2">
+                    Acepto los terminos y condiciones
+                  </label>
                 </div>
               </div>
-              <div>
-                <aside>
-                  <label for="pepName"> Usuario</label>
-                </aside>
-                <div>
-                  <div style="width: 100%; max-width: 355px">
-                    <input
-                      type="text"
-                      value="Karen Aguirre 14"
-                      aria-required="false"
-                      id="pepName"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div>
-                <aside>
-                  <label for="pepName"> Telefono</label>
-                </aside>
-                <div>
-                  <div style="width: 100%; max-width: 355px">
-                    <input
-                      type="text"
-                      value="0351156156156"
-                      aria-required="false"
-                      id="pepName"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div>
-                <button disabled type="button">Guardar</button>
+              <div class="col-12">
+                <button
+                  class="btn btn-primary"
+                  type="submit"
+                  style="
+                    background-color: rgb(253, 214, 142);
+                    color: black;
+                    border: orange;
+                  "
+                >
+                  Guardar
+                </button>
               </div>
             </form>
           </div>
